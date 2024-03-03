@@ -39,6 +39,8 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
+    },
+    
     TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: 'f9d603136db1c7d0cc7cae4ecf795fa5',
@@ -55,7 +57,6 @@ const USER_CONFIG = {
     // 每日一言的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
     LITERARY_PREFERENCE: '',
-    },
   ],
 
 
