@@ -18,7 +18,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '美丽可爱的郭亚平女士',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oEHVM62Q6I3ht9kIvlpuJOt6KPJo',
+      id: 'oEHVM628ytZnfr5reOJVy-nh9AJM',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'Qc4wjfEfH8rHPL2sDUv7sNcIuRkDWgTTY-D9NL1Rh2c',
       // 所在省份或城市，也可以不填
@@ -47,7 +47,7 @@ const USER_CONFIG = {
     },
    {
       name: '郑剑',
-      id: 'oEHVM68JMFmPtFtZ0pe0fyH41LUU',
+      id: 'oEHVM62Q6I3ht9kIvlpuJOt6KPJo',
       useTemplateId: 'Qc4wjfEfH8rHPL2sDUv7sNcIuRkDWgTTY-D9NL1Rh2c',
       province: '广州',
       city: '东莞',
