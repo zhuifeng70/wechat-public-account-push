@@ -13,9 +13,6 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'c894836be858a98bcc2db6daaec22084',
 
-  PROVINCE: '福建',
-  CITY: '福州',
-
   USERS: [
     {
       // 想要发送的人的名字
@@ -24,8 +21,16 @@ const USER_CONFIG = {
       id: 'oEHVM62Q6I3ht9kIvlpuJOt6KPJo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '-_OBxlkX1PzlLz3l0_hwX9dkvD55eTv8vSZRkshQa3Q',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '01-01',
+      // 所在省份或城市，也可以不填
+      province: '福建',
+      // 所在城市或县区
+      city: '福州',
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '12-20',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://wangxinleo.cn',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -40,6 +45,19 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
+   {
+      name: '郑剑',
+      id: 'oEHVM68JMFmPtFtZ0pe0fyH41LUU',
+      useTemplateId: '-_OBxlkX1PzlLz3l0_hwX9dkvD55eTv8vSZRkshQa3Q',
+      province: '东莞',
+      city: '凤岗',
+      horoscopeDate: '04-28',
+      horoscopeDateType: '今日',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [],
+      customizedDateList: [],
+      courseSchedule: null
+    }
   ],
    // 功能开关,打开：true，关闭：false
   SWITCH: {
