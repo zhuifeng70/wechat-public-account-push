@@ -20,7 +20,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oEHVM62Q6I3ht9kIvlpuJOt6KPJo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '-_OBxlkX1PzlLz3l0_hwX9dkvD55eTv8vSZRkshQa3Q',
+      useTemplateId: 'ITi0CFAvKbYpuZ0TWzq1a0OLv78Wqjqt2bOIMJX9KhA',
       // 所在省份或城市，也可以不填
       province: '福建',
       // 所在城市或县区
@@ -30,11 +30,11 @@ const USER_CONFIG = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://wangxinleo.cn',
+      openUrl: 'https://weibo.com/newlogin?tabtype=search',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2024', date: '11-20',
+          type: '*生日', name: '郭亚平女士', year: '2024', date: '11-20',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -48,14 +48,25 @@ const USER_CONFIG = {
    {
       name: '郑剑',
       id: 'oEHVM68JMFmPtFtZ0pe0fyH41LUU',
-      useTemplateId: '-_OBxlkX1PzlLz3l0_hwX9dkvD55eTv8vSZRkshQa3Q',
+      useTemplateId: 'ITi0CFAvKbYpuZ0TWzq1a0OLv78Wqjqt2bOIMJX9KhA',
       province: '东莞',
       city: '凤岗',
       horoscopeDate: '04-28',
       horoscopeDateType: '今日',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
+      openUrl: 'https://weibo.com/newlogin?tabtype=search',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: 'Mr.郑', year: '2024', date: '3-20',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-09-08' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-09' },
+      ],
       courseSchedule: null
     }
   ],
@@ -98,7 +109,7 @@ const USER_CONFIG = {
   
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: false,
+  IS_SHOW_COLOR: true,
   
   /** 每日一言 */
   // 每日一言的内容类型
