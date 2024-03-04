@@ -19,11 +19,11 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '美丽可爱的郭亚平女士',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oEHVM62Q6I3ht9kIvlpuJOt6KPJo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '4heHOISXn0J9pT1eLznoMyNfIwuG1FZJWd5yOJQo7ps',
+      useTemplateId: 'QLCHHp5ER_z24syErn_XcTwpnOMER3n5lucWUL2YSH4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-01',
       festivals: [
@@ -41,8 +41,29 @@ const USER_CONFIG = {
       ],
     },
   ],
+   // 功能开关,打开：true，关闭：false
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
 
-    TIAN_API: {
+    /** 节假日 */
+    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    holidaytts: true,
+
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: true,
+    
+    /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: true,
+  
+    /** 生日消息和节日消息 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    birthdayMessage: true,
+  },
+  
+  TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: 'f9d603136db1c7d0cc7cae4ecf795fa5',
     
@@ -57,19 +78,23 @@ const USER_CONFIG = {
     weather: 3,
   },
   
+  /** 是否给文字设置多彩颜色, 和emoji不兼容 */
+  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
+  IS_SHOW_COLOR: false,
+  
   /** 每日一言 */
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
   LITERARY_PREFERENCE: '',
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'oEHVM68JMFmPtFtZ0pe0fyH41LUU',
+  CALLBACK_TEMPLATE_ID: '4men7c6LXm9w76ngOCgWvxoWZKAEqKb3X-uFR6MUyGI',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '4men7c6LXm9w76ngOCgWvxoWZKAEqKb3X-uFR6MUyGI',
+      id: 'oEHVM68JMFmPtFtZ0pe0fyH41LUU',
     }
   ],
 
