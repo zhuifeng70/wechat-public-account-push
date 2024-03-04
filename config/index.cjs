@@ -20,7 +20,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oEHVM62Q6I3ht9kIvlpuJOt6KPJo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Ltz0lWNMeTuz-zXyCk5Ou_VyqfFv2gyjx1LtpXXPs2k',
+      useTemplateId: '6d9RBSIG2cdThj-4zHXLW1iFhzhGyTMYxPx0HjBn1ig',
       // 所在省份或城市，也可以不填
       province: '福建',
       // 所在城市或县区
@@ -48,7 +48,7 @@ const USER_CONFIG = {
    {
       name: '郑剑',
       id: 'oEHVM68JMFmPtFtZ0pe0fyH41LUU',
-      useTemplateId: 'Ltz0lWNMeTuz-zXyCk5Ou_VyqfFv2gyjx1LtpXXPs2k',
+      useTemplateId: '6d9RBSIG2cdThj-4zHXLW1iFhzhGyTMYxPx0HjBn1ig',
       province: '广州',
       city: '东莞',
       horoscopeDate: '04-28',
