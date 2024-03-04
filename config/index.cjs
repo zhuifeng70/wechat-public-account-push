@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oEHVM62Q6I3ht9kIvlpuJOt6KPJo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'QLCHHp5ER_z24syErn_XcTwpnOMER3n5lucWUL2YSH4',
+      useTemplateId: '-_OBxlkX1PzlLz3l0_hwX9dkvD55eTv8vSZRkshQa3Q',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-01',
       festivals: [
@@ -69,10 +69,10 @@ const USER_CONFIG = {
     
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    morningGreeting: true,
+    morningGreeting: false,
   
     // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    eveningGreeting: true,
+    eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: 3,
