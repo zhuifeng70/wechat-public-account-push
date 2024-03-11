@@ -49,15 +49,15 @@ const USER_CONFIG = {
       name: '郑剑',
       id: 'oEHVM62Q6I3ht9kIvlpuJOt6KPJo',
       useTemplateId: 'Qc4wjfEfH8rHPL2sDUv7sNcIuRkDWgTTY-D9NL1Rh2c',
-      province: '广州',
-      city: '东莞',
+      province: '福建',
+      city: '福州',
       horoscopeDate: '04-28',
       horoscopeDateType: '今日',
       openUrl: 'https://weibo.com/newlogin?tabtype=search',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: 'Mr.郑', year: '2024', date: '3-20',
+          type: '*生日', name: '郭亚平女士', year: '2024', date: '11-20',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
